@@ -1,0 +1,12 @@
+var a = undefined;
+document.write(a+"<br>");
+var a = 5;
+document.write("a = "+a+"<br>");
+var b = ++a;
+document.write("Incretment is:<br>"+ b+"<br>");
+var a = a+ 7;
+document.write("Add with 7:<br>"+ a+"<br>");
+var c = --a;
+document.write("decrement is:<br>"+ c+"<br>");
+var d = a  % 3;
+document.write("The Remainder is:<br>"+d );
